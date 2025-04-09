@@ -1,0 +1,72 @@
+<div class="sidebar">
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/intro.html">My Intro</a></li>
+      <li><a href="/services.html">Services</a></li>
+      <li><a href="/blog.html">Blog</a></li>
+      <li><a href="/contact.html">Contact Me</a></li>
+    </ul>
+  </nav>
+</div> 
+
+<!-- Image container -->
+<div class="anu">
+  <img src="intro.png" alt="Intro Image">
+</div>
+
+<style>
+  /* Sidebar container */
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background-color: #1e1e2f;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* Remove default list styles */
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* List items */
+.sidebar li {
+  margin: 20px 0;
+}
+
+/* Anchor link styles */
+.sidebar a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  display: block;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+.sidebar a:hover {
+  color: #00bfff;
+  padding-left: 10px;
+}
+
+/* Image container styling */
+.anu {
+  margin-left: 220px; /* space to the right of the sidebar */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Make the image responsive */
+.anu img {
+  max-width: 100%;
+  height: auto;
+}
+
+</style>
